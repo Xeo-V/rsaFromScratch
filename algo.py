@@ -25,6 +25,7 @@ def generate_prime_number(length=1024):
         p = generate_prime_candidate(length)
     return p
 
+def funrandom gen 
 def generate_keypair(p, q):
     try:
         n = p * q
