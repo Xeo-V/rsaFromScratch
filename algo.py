@@ -12,13 +12,7 @@ def mod_inv(a, m):
             return i
     return None
 
-def is_prime(n):
-    if n <= 1:
-        return False
-    for i in range(2, int(n ** 0.5) + 1):
-        if n % i == 0:
-            return False
-    return True
+
 
 def generate_prime_candidate(length):
     p = random.getrandbits(length)
